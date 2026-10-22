@@ -164,6 +164,8 @@ a { color: inherit; }
 .contact-list strong, .contact-list a:not(.map-link) { font-family: var(--font-display); font-weight: 700; font-size: 1.3rem; text-decoration: none; word-break: break-word; }
 .contact-list a:not(.map-link):hover { color: var(--teal); }
 .phones { display: flex; flex-wrap: wrap; gap: .2rem 1.6rem; }
+.qr-link { display: inline-block; margin-top: 1.5rem; }
+.qr-link img { display: block; width: 200px; height: auto; border: 1px solid var(--line); border-radius: 8px; }
 address { font-style: normal; font-size: 1.1rem; }
 .map-link { margin-top: .4rem; width: fit-content; font-weight: 600; color: var(--teal); text-underline-offset: 3px; }
 
