@@ -64,7 +64,7 @@
   /* ---------- Enquiry form: opens the visitor's email app ---------- */
   var form = document.getElementById("enquiry-form");
   var status = document.getElementById("form-status");
-  var EMAIL = "simsonfootwearsdelhi@gmail.com";
+  var EMAIL = "simsonfootwearsdelhi@gmail.com,ruhansales3079@gmail.com";
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
